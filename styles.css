@@ -1,11 +1,27 @@
 body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
+}
+
+.icon-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.icon-container img {
+    margin: 5px;
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
 }
 
 .container {
